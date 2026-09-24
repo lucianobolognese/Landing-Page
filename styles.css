@@ -14,7 +14,7 @@
 ul{
     display: flex;
     list-style: none;
-    gap:10px;
+    gap:25px;
     justify-content: flex-end;
 }
 
@@ -29,18 +29,19 @@ a{
     background-color: #1F2937;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 80px 0px 80px;
+    padding: 0px 150px 0px 150px;
     margin: -10px;
 }
 
 .first-content{
-    padding: 80px;
+    padding: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     background-color: #1F2937;
     margin:-10px;
+    gap:120px;
 }
 
 .title-first{
@@ -140,7 +141,6 @@ h1{
 }
 
 .third-text{
-    display: flex;
     justify-content: center;
     font-size: 24px;
     font-family: Roboto;
@@ -150,14 +150,13 @@ h1{
 }
 
 .third-signature{
-    display: flex;
     color: blue;
     font-size: large;
     font-weight: 800;
     padding:0px 120px 0px 120px;
     margin-top: 10px;
     margin-bottom: -10px;
-    justify-content: flex-end;
+    text-align: right;
 }
 
 .fourth-section {
@@ -169,7 +168,7 @@ h1{
     align-items: center; 
     border-radius: 10px;
     padding: 40px 60px 40px 60px;
-    margin: 80px 160px 80px 160px;
+    margin: 80px 240px 80px 240px;
 }
 
 .text-fourth-container {
